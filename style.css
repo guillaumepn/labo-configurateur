@@ -1,0 +1,39 @@
+ul {
+  display: inline-block;
+  width: 300px;
+}
+
+ul li {
+  display: inline-block;
+  width: 100px;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  cursor: pointer;
+}
+
+ul li img {
+  width: 100%;
+  height: auto;
+}
+
+.lunette-container {
+  width: 500px;
+  height: 500px;
+  float: right;
+  background: grey;
+}
+
+.mouse-bloc-container {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  pointer-events: none;
+  z-index: 20;
+}
+
+.mouse-bloc-container img {
+  width: 100%;
+  height: auto;
+  db
+}
